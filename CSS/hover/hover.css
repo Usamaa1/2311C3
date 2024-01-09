@@ -1,0 +1,13 @@
+.btn{
+    background-color: royalblue;
+    padding: 10px 8px 6px 4px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    transition: .4s linear;
+}
+.btn:hover{
+    background-color: aquamarine;
+    color: black;
+}

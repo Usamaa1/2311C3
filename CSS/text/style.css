@@ -1,0 +1,70 @@
+body
+{
+    /* background-color: beige; */
+    background: linear-gradient(80deg, #0984e3,#6c5ce7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.heading
+{
+    background-color: #d5bdcb;
+    color: #d63031;
+}
+.paragraph
+{
+    color: #D980FA;
+}
+#p1
+{
+    background-color: #ccd5bd;
+}
+#p2
+{
+    background-color: #D5CABD;
+}
+#p3
+{
+    background-color: #c9bdd5;
+}
+#par1{
+    background-color: aqua;
+}
+#par2{
+    background-color: aquamarine;
+}
+
+/* Font.html CSS starts form here */
+
+.main-container
+{
+    font-size: 24px;
+}
+
+.main-heading
+{
+    font-size: 18px;
+}
+.main-paragraph
+{
+    font-size: 1.5rem;
+    /* font-weight: lighter; */
+    /* font-weight: bold; */
+    font-weight: 900;
+
+    font-style: oblique;
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-transform: capitalize; */
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+    border: 3px dotted #d63031;
+
+
+
+   
+
+
+
+
+}

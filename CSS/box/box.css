@@ -1,0 +1,27 @@
+/* .square{
+    display: inline;
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+} */
+*{
+    box-sizing: border-box;
+}
+.square{
+   display: block;
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    /* padding: 10px; */
+    text-align: center;
+    border: 1px solid black;
+}
+/* .square{
+    display: inline-block;
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+} */
