@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* p::selection{
+    background-color: rgb(235, 46, 125);
+    color: azure;
+} */
+/* p::first-line{
+    background-color: rgb(235, 46, 125);
+    color: azure;
+} */
+/* p::first-letter{
+    background-color: rgb(235, 46, 125);
+    color: azure;
+} */
+/* p::first-letter{
+    background-color: rgb(235, 46, 125);
+    color: azure;
+} */
+
+/* .quote::before{
+    content: ' -- Albert Einstien ';
+} */
+/* .quote::after{
+    content: ' Good thought ';
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    background-color: rgb(221, 236, 250);
+    
+    height: 100vh;
+}
+.container{
+    width: 500px;
+    height: 600px;
+    padding: 50px;
+    background-color: aquamarine;
+}

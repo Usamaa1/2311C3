@@ -1,0 +1,27 @@
+/* button:disabled{
+    background-color: rgb(215, 177, 250);
+    color: aliceblue;
+} */
+
+
+/* input:focus{
+    outline-color: purple;
+    outline-width: 20px;
+    background-color: aquamarine;
+} */
+
+li:first-child{
+    color: blueviolet;
+}
+li:nth-child(5){    
+    color: rgb(226, 43, 52);
+}
+li:last-child{
+    color: rgb(226, 43, 171);
+}
+a:visited{
+    color: aquamarine;
+}
+a:active{
+    color: rgb(232, 255, 127);
+}
