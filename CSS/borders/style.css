@@ -1,0 +1,13 @@
+.circle
+{
+    border-style: solid;
+    border-width: 4px;
+    border-color: plum;
+    width: 200px;
+    height: 400px;
+    background-color: tomato;
+    /* border-radius: 50%; */
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    text-align: center;
+}

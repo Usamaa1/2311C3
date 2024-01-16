@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-items-container{
+    background-color: powderblue;
+    padding: 20px 0px;
+    text-align: right;
+}
+.nav-items-container li
+{
+    display: inline;
+    cursor: pointer;
+  
+}
+.nav-items-container li a{
+    text-decoration: none;
+    padding: 20px;
+    color: #2c3e50;
+    font-weight: 900;
+    transition: 0.8s linear;
+}
+
+.nav-items-container li:hover a{
+    background-color: palevioletred;
+    color: aliceblue !important;
+
+}
