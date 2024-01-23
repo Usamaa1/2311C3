@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: powderblue;
+    transition: 0.7s linear;
+    box-shadow: 6px 6px 6px 10px #b095fa inset,
+    10px 8px 10px 20px plum inset,
+    7px 6px 10px 30px palevioletred inset;
+
+}
+/* .box:hover{
+    box-shadow: 10px 10px 10px 5px #e2e2e2 inset;
+} */
