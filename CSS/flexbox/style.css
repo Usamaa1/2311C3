@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+}
+.item1{
+    background-color: plum;
+}
+.item2{
+    background-color: powderblue;
+}
+.item3{
+    background-color: peachpuff;
+}
+.item4{
+    background-color: palevioletred;
+}
