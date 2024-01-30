@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.item{
+    background-color: #9980FA;
+}
+.item-1{
+    grid-area: header;
+    background-color: plum;
+}
+.item-2{
+    grid-area: banner;
+    background-color: powderblue;
+}
+.item-3{
+    grid-area: main;
+    background-color: peachpuff;
+}
+.item-4{
+    grid-area: sidebar;
+    background-color: palegoldenrod;
+}
+.item-5{
+    grid-area: gallery;
+    background-color: thistle;
+}
+.item-6{
+    grid-area: footer;
+    background-color: grey;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 60px 600px 600px 600px 200px;
+    grid-template-areas: 
+                "header header header header"
+                "banner banner banner banner"
+                "sidebar main main main"
+                "gallery gallery gallery gallery"
+                "footer footer footer footer";
+}
+.banner-img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 500px;
+}
+.nav-list li{
+    cursor: pointer;
+}
+
+.gallery-hd{
+    text-align: center;
+    margin: 20px 0px;
+}
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.img-container{
+    width: 300px;
+    height: 180px;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
