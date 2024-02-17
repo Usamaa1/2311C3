@@ -1,0 +1,17 @@
+.item{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: plum;
+    transition: all 1s linear;
+}
+
+.container:has(.item:hover) > .item:not(:hover)
+{
+    background-color: palevioletred;
+}
+
+
+.container:has(.item:hover) > .item:not(:hover){
+    border: 2px solid sandybrown;
+}
