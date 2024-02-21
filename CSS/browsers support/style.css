@@ -1,0 +1,23 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+    display: flex;
+    /* -moz-animation: ; for mozilla firefox */
+    /* -o-animation: ;  for opera */
+    /* -webkit-animation: ;  for chrome and safari */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100vh;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+}
+/* @-o-keyframes for opera */

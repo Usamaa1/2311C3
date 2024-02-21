@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.box{
+    width: 1000px;
+    height: 100vh;
+    background-color: plum;
+    clip-path: polygon(22% 39%, 4% 12%, 29% 30%, 41% 14%, 47% 30%, 77% 4%, 68% 33%, 89% 37%, 79% 46%, 92% 52%, 75% 63%, 92% 67%, 70% 70%, 77% 96%, 59% 72%, 47% 96%, 40% 73%, 21% 86%, 27% 68%, 0% 95%, 18% 60%, -1% 72%, 16% 51%, 0% 40%);
+    /* clip-path: polygon(66.3% 6.47%, 76.40% 69.42%, 38.8% 82.04%, 7.3% 83.66%, 36% 35.11%); */
+    /* clip-path: circle(200px at 200px 200px); */
+    /* clip-path: ellipse(62px 18px at 326px 169px); */
+}
+
+img{
+    width: 500px;
+    /* clip-path: inset(99px 114px 52px 129px); */
+}

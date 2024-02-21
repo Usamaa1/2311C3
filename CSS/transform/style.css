@@ -1,0 +1,24 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container
+{
+    background-color: plum;
+    width: 400px;
+    height: 300px;
+    /* transform: translate(50px,50px); */
+    /* transform: translateY(50px); */
+    /* transform: translateX(50px); */
+    /* transform: rotate(90deg); */
+    /* transform: rotateX(80deg); */
+    /* transform: rotateY(90deg); */
+    /* transform: rotateZ(90deg); */
+    /* transform: scale(1.9); */
+    /* transform: scaleX(1.9); */
+    /* transform: scaleY(1.9); */
+    /* transform: skew(20deg,50deg); */
+    /* transform: skewX(20deg); */
+    /* transform: skewY(20deg); */
+
+}

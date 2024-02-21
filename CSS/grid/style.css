@@ -3,7 +3,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
 }
-
+/* 
 .item{
     background-color: #9980FA;
 }
@@ -82,4 +82,72 @@
 .img-container img{
     width: 100%;
     height: 100%;
+} */
+
+
+
+
+
+
+
+
+
+
+/* ******************************** */
+/* ******************************** */
+/* ******************************** */
+/* ******************************** */
+/* ***** GRID.HTML CSS START ****** */
+/* ******************************** */
+/* ******************************** */
+/* ******************************** */
+/* ******************************** */
+
+
+
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit,200px); */
+    /* justify-items: center;
+    align-items: center; */
+    /* place-items: start center; */
+    /* justify-items: center; */
+    /* justify-content: center;
+     align-content: center; */
+     /* place-content: center; */
+     height: 100vh;
+    grid-auto-flow: row;
+    /* grid-template: 200px 200px / 300px; */
 }
+
+
+.item{
+    /* width: 100px;
+    height: 100px; */
+    background-color: plum;
+    color: #fff;
+    border: 1px solid;
+
+}
+
+.item4{
+    /* justify-self: center;
+    align-self: center; */
+    /* place-self: center stretch; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

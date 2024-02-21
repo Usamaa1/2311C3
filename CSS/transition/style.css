@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    width: 100px;
+    height: 40px;
+    background-color: plum;
+    transition: transform 2s cubic-bezier(.2,.89,.72,.14);
+}
+.box:hover{
+    transform: rotate(90deg);
+    /* transform: scale(1.4); */
+    /* transform: translate(300px); */
+}
